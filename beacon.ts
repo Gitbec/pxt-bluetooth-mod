@@ -1,5 +1,5 @@
 //% color=#0082FB weight=96 icon="\uf294"
-namespace beacon {
+namespace bluetooth senden{
 
     /**
   * Advertise an Eddystone UID
