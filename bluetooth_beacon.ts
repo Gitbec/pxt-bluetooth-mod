@@ -8,7 +8,7 @@ namespace beacon {
   * @param power power level between 0 and 7, eg: 7
   * @param connectable true to keep bluetooth connectable for other services, false otherwise.
   */
-    //% blockId=eddystone_advertise_uid block="bluetooth advertise UID|namespace (bytes 6-9)%ns|instance (bytes 2-6)%instance|with power %power|connectable %connectable"
+    //% blockId=eddystone_advertise_uid block="bluetooth mod UID|namespace (bytes 6-9)%ns|instance (bytes 2-6)%instance|with power %power|connectable %connectable"
     //% parts=bluetooth weight=12 blockGap=8
     //% help=bluetooth/advertise-uid blockExternalInputs=1
     export function advertiseUid(ns: number, instance: number, power: number, connectable: boolean) {
@@ -25,7 +25,7 @@ namespace beacon {
         * @param power power level between 0 and 7, eg: 7
         * @param connectable true to keep bluetooth connectable for other services, false otherwise.
         */
-    //% blockId=eddystone_advertise_url block="bluetooth advertise url %url|with power %power|connectable %connectable"
+    //% blockId=eddystone_advertise_url block="bluetooth mod url %url|with power %power|connectable %connectable"
     //% parts=bluetooth weight=11 blockGap=8
     //% help=bluetooth/advertise-url blockExternalInputs=1
     export function advertiseUrl(url: string, power: number, connectable: boolean) {
