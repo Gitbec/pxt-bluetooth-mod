@@ -1,14 +1,7 @@
 //% color=#0082FB weight=96 icon="\uf294"
 namespace bluetooth_senden{
 
-    /**
-  * Advertise an Eddystone UID
-  * @param ns 4 last bytes of the namespace uid
-  * @param instance 4 last bytes of the instance uid
-  * @param power power level between 0 and 7, eg: 7
-  * @param connectable true to keep bluetooth connectable for other services, false otherwise.
-  */
-    /**
+ 
      * Prints a numeric value to the serial
      */
     //% help=bluetooth/uart-write-number weight=79
@@ -25,7 +18,7 @@ namespace bluetooth_senden{
     /**
     * Stops advertising Eddystone end points
     */
-    //% blockId=beacon_eddystone_stop_advertising block="bluetooth stop advertising"
+    //% blockId=beacon_eddystone_stop_advertising block="bluetooth stoppe advertising"
     //% parts=bluetooth weight=10
     //% help=bluetooth/stop-advertising
     export function stopAdvertising() {
