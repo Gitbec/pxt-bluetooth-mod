@@ -13,9 +13,9 @@ namespace bluetooth_senden{
      */
     //% help=bluetooth/uart-write-number weight=79
     //% weight=89 blockGap=8 
-    //% blockId=bluetooth_uart_writenumber block="bluetooth uart|write number %value"
+    //% blockId=bluetooth_uart_writenumber block="Sende|write number %value"
     export function uartWriteNumber(value: number): void {
-        uartWriteString(value.toString());
+        bluetooth.uartWriteString(value.toString());
     }
     
    
