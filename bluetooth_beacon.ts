@@ -36,7 +36,7 @@ namespace beacon {
 /**
 * Stops advertising Eddystone end points
 */
-    //% blockId=eddystone_stop_advertising block="bluetooth stop advertising"
+    //% blockId=eddystone_stop_advertising block="bluetooth stopfe advertising"
     //% parts=bluetooth weight=10
     //% help=bluetooth/stop-advertising
     export function stopAdvertising() {
