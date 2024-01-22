@@ -24,7 +24,7 @@ namespace beacon {
         * @param power power level between 0 and 7, eg: 7
         * @param connectable true to keep bluetooth connectable for other services, false otherwise.
         */
-    //% blockId=beacon_eddystone_advertise_url block="bluetooth advertise url %url|with power %power|connectable %connectable"
+    //% blockId=beacon_eddystone_advertise_url block="bluetooth mod url %url|with power %power|connectable %connectable"
     //% parts=bluetooth weight=11 blockGap=8
     //% help=bluetooth/advertise-url blockExternalInputs=1
     export function advertiseUrl(url: string, power: number, connectable: boolean) {
