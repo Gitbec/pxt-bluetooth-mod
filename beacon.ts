@@ -8,6 +8,16 @@ namespace bluetooth_senden{
   * @param power power level between 0 and 7, eg: 7
   * @param connectable true to keep bluetooth connectable for other services, false otherwise.
   */
+    /**
+     * Prints a numeric value to the serial
+     */
+    //% help=bluetooth/uart-write-number weight=79
+    //% weight=89 blockGap=8 advanced=true
+    //% blockId=bluetooth_uart_writenumber block="bluetooth uart|write number %value"
+    export function uartWriteNumber(value: number): void {
+        uartWriteString(value.toString());
+    }
+    
     //% blockId=beacon_eddystone_advertise_uid block="bluetooth mod UID|namespace (bytes 6-9)%ns|instance (bytes 2-6)%instance|with power %power|connectable %connectable"
     //% parts=bluetooth weight=12 blockGap=8
     //% help=bluetooth/advertise-uid blockExternalInputs=1
