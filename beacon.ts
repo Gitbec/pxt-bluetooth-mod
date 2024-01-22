@@ -1,7 +1,7 @@
 //% color=#0082FB weight=96 icon="\uf294"
 namespace bluetooth_senden{
 
- 
+    /**
      * Prints a numeric value to the serial
      */
     //% help=bluetooth/uart-write-number weight=79
