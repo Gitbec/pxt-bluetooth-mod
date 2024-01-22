@@ -1,5 +1,5 @@
 //% color=#0082FB weight=96 icon="\uf294"
-namespace bluetooth-senden{
+namespace bluetooth_senden{
 
     /**
   * Advertise an Eddystone UID
@@ -13,9 +13,9 @@ namespace bluetooth-senden{
      */
     //% help=bluetooth/uart-write-number weight=79
     //% weight=89 blockGap=8 
-    //% blockId=bluetooth_uart_writenumber block="Sende per Bluetooth|write number %value"
+    //% blockId=bluetooth_uart_writenumber block="bluetooth uart|write number %value"
     export function uartWriteNumber(value: number): void {
-        bluetooth.uartWriteString(value.toString());
+        uartWriteString(value.toString());
     }
     
    
